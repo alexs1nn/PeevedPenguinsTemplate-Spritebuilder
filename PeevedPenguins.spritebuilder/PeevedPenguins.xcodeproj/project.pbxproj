@@ -36,6 +36,7 @@
 		B77F1B3E17B978D7009739AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3D17B978D7009739AE /* Foundation.framework */; };
 		B77F1B4017B978D7009739AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B3F17B978D7009739AE /* CoreGraphics.framework */; };
 		B77F1B4217B978D7009739AE /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F1B4117B978D7009739AE /* CoreText.framework */; };
+		DB3CEFCE19FD9E140024FDBD /* Gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3CEFCD19FD9E140024FDBD /* Gameplay.m */; };
 		DBFA904519FD2E1200FAFCB4 /* Penguin.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA904419FD2E1200FAFCB4 /* Penguin.m */; };
 		DBFA904919FD2E2B00FAFCB4 /* Seal.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA904819FD2E2B00FAFCB4 /* Seal.m */; };
 /* End PBXBuildFile section */
@@ -92,6 +93,8 @@
 		B77F1B3F17B978D7009739AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		B77F1B4117B978D7009739AE /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		B7B3713D180358F1007369CC /* libObjectiveChipmunk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libObjectiveChipmunk.a; path = "../libs/cocos2d-iphone/external/Chipmunk/xcode/build/Debug-iphoneos/libObjectiveChipmunk.a"; sourceTree = "<group>"; };
+		DB3CEFCC19FD9E140024FDBD /* Gameplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gameplay.h; path = Source/Gameplay.h; sourceTree = "<group>"; };
+		DB3CEFCD19FD9E140024FDBD /* Gameplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Gameplay.m; path = Source/Gameplay.m; sourceTree = "<group>"; };
 		DBFA904319FD2E1200FAFCB4 /* Penguin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Penguin.h; path = Source/Penguin.h; sourceTree = "<group>"; };
 		DBFA904419FD2E1200FAFCB4 /* Penguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Penguin.m; path = Source/Penguin.m; sourceTree = "<group>"; };
 		DBFA904719FD2E2B00FAFCB4 /* Seal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Seal.h; path = Source/Seal.h; sourceTree = "<group>"; };
@@ -139,6 +142,8 @@
 				DBFA904419FD2E1200FAFCB4 /* Penguin.m */,
 				DBFA904719FD2E2B00FAFCB4 /* Seal.h */,
 				DBFA904819FD2E2B00FAFCB4 /* Seal.m */,
+				DB3CEFCC19FD9E140024FDBD /* Gameplay.h */,
+				DB3CEFCD19FD9E140024FDBD /* Gameplay.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -355,6 +360,7 @@
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				DBFA904519FD2E1200FAFCB4 /* Penguin.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
+				DB3CEFCE19FD9E140024FDBD /* Gameplay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
