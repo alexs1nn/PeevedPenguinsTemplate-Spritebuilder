@@ -11,6 +11,7 @@
 @implementation Gameplay {
     CCPhysicsNode *_physicsNode;
     CCNode *_catapultArm;
+    CCNode *_pullbackNode;
     CCNode *_levelNode;
     CCNode *_contentNode;
 }
@@ -19,6 +20,8 @@
 - (void)didLoadFromCCB {
     // visualize physics bodies & joints
     _physicsNode.debugDraw = TRUE;
+    // nothing shall collide with our invisible nodes
+    _pullbackNode.physicsBody.collisionMask = @[];
     // tell this scene to accept touches
     self.userInteractionEnabled = TRUE;
     CCScene *level = [CCBReader loadAsScene:@"Levels/Level1"];
